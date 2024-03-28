@@ -1,2 +1,2 @@
-# isochrone_test
-Testing mapbox's isochrone API 
+# GGR472-Group-Project
+ Group repository for GGR472
