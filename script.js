@@ -1,4 +1,4 @@
-mapboxgl.accessToken = "pk.eyJ1Ijoic3BibGlzYXJlbmtvMTIiLCJhIjoiY2xzMjlodmljMGthcjJrbXRibnRwZ2d3eCJ9.gxylQolcBDuJTH_WfI6MrA"; //accesstoken for map style
+mapboxgl.accessToken = "pk.eyJ1IjoibWlrYXZ5YXMiLCJhIjoiY2xoczhjcDR1MGZqMzNjcW1scm1paTRpNyJ9.yYDAti9jKKB23RGPg8SeRA"; //accesstoken for map style
 
 const map = new mapboxgl.Map({
     container: "my-map", //ID for my-map container
@@ -38,7 +38,7 @@ map.on('load',() => {
     
     map.addSource("housing", {
         type: "geojson",
-        data: 'https://raw.githubusercontent.com/Bpslisarenko11/GGR472-Group-Project/main/Affordable-housing.geojson', // Link to GeoJSON link in GitHub
+        data: 'https://raw.githubusercontent.com/mikavyas/isochrone_test/main/Affordable-housing.geojson', // Link to GeoJSON link in GitHub
         
     });
     //Add the GeoJSON link source as a new layer
@@ -63,7 +63,7 @@ map.on('load',() => {
 
     map.addSource("hospitals", {
         type: "geojson",
-        data: "https://raw.githubusercontent.com/Bpslisarenko11/GGR472-Group-Project/main/Health-Services.geojson", // Link to GeoJSON link in GitHub
+        data: "https://raw.githubusercontent.com/mikavyas/isochrone_test/main/Health-Services.geojson", // Link to GeoJSON link in GitHub
     
     });
 
@@ -83,7 +83,7 @@ map.on('load',() => {
 
     map.addSource("schools_all", {
         type: "geojson",
-        data: "https://raw.githubusercontent.com/Bpslisarenko11/GGR472-Group-Project/main/School-locations.geojson", // Link to GeoJSON link in GitHub
+        data: "https://raw.githubusercontent.com/mikavyas/isochrone_test/main/School-locations.geojson", // Link to GeoJSON link in GitHub
     
     });
 
@@ -193,7 +193,7 @@ map.on('load',() => {
 
     map.addSource("subways1", {
         type: "geojson",
-        data: "https://raw.githubusercontent.com/Bpslisarenko11/GGR472-Group-Project/main/Subways.geojson", // Link to GeoJSON link in GitHub
+        data: "https://raw.githubusercontent.com/mikavyas/isochrone_test/main/Subways.geojson", // Link to GeoJSON link in GitHub
     
     });
 
